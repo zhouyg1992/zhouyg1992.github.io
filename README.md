@@ -1,65 +1,33 @@
-# _Airspace_ for Jekyll
-![screenshot](screenshots/home.png "Description goes here")
+# TravelMap
 
-This Jekyll theme is a port of [ThemeFisher's](https://themefisher.com) [Airspace template](https://themefisher.com/products/airspace-free-bootstrap-website-template/). It is released under ThemeFisher's [license](https://themefisher.com/license) , which requires attribution. Concern about the licnese please contact with [them](mailto:themefisher@gmail.com)
+Travel Map plugin for your personal website
 
-## Usage
-To start your project, [fork this respository](https://github.com/ndrewtl/airspace-jekyll/fork), put in your content, and go!
+## Minimal plugin for Travel Map
+This is a plugin that you show your travel map
 
-## Examples
-Here are some projects that have used this Jekyll Theme:
-* [BOYUAN Open Source 博辕开源](https://boyuanitsm.github.io)
-* [Campus VC](https://mrchildneo.github.io/mrchildneo/)
-* [Mãos de amar](https://www.maosdeamar.com.br/)
-* [ATK Team](http://www.atksec.com/)
-* [Coding Club](https://ourcodingclub.github.io/)
-* [Dev Empathy Book Club](http://www.devempathybook.club/)
-* [DKAN Open Data Catalog](http://getdkan.com) (modified version of this theme)
+### Demo
 
-## Steps for Setup:
+`Here is a demo`_ of `sample effect` 
 
-### Make sure you have Ruby
+![Demo](/demo/demo.gif)
 
-First, make sure you have [Ruby](https://www.ruby-lang.org/en/) installed. You can confirm this by running `ruby -v` on the command line:
+Also you can visit [this web deb](https://jekyller.github.io/TravelMap/) or [my original web](http://www.junlulocky.com/travelmap/)
 
-```sh
-$ ruby -v
-ruby [version number] (date) [your platform]
-```
+### Add Travel Map in your web 
 
-If you get something like `"Error, command not found"` visit the link above and
-install Ruby for your platform.
+- Copy '/_data/country_names.yml' to your Jekyll '_data' folder;
+
+- Change the country_name.yml file to your own experience, make the *visited* indicator to *true* if you have visited this country; *false* otherwise;
+
+- Add **custom.css** to your website folder; Add this file route to your website page;
+
+- Put **index.html** under the website route;
+
+- Change the *baseurl* in *_config.yml*to your Repo name.
 
 
-### Make sure you have Bundler
 
-Next, make sure you have [Bundler](https://bundler.io) installed. Just like
-above, run `bundle -v` on the command line:
 
-```sh
-$ bundle -v
-bundle [version number]
-```
+## Author
 
-If you get `"Error, command not found"` run `gem install bundler` to install it
-using RubyGems.
-
-### Run this repository
-
-Clone the repository, and `cd` into it:
-```sh
-$ git clone https://github.com/ndrewtl/airspace-jekyll.git
-$ cd airspace-jekyll
-```
-
-Install dependencies locally:
-```sh
-$ bundle install --path vendor/bundle
-```
-
-This should install a local copy of jekyll.
-
-Now run the server:
-```sh
-$ ./vendor/bundle/ruby/#{YOUR_RUBY_VERSION}/bin/jekyll server
-```
+- [Locky](https://github.com/junlulocky)
