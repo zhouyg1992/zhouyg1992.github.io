@@ -10,4 +10,7 @@ image: mountains.jpg
 
 ### Hello World!
 
-> hi!
+```php
+<?php
+echo 'Hello World~';
+```
